@@ -1,0 +1,75 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px 80px 100px;
+}
+.features>p{
+    max-width: 41%;
+    color: hsl(229, 8%, 60%);
+    align-self: center;
+}
+.features__single{
+    display: flex;
+    width: 55%;
+    padding-top: 25px;
+    align-self: center;
+    color: hsl(229, 8%, 60%);
+}
+.features__single>button.active {
+    color:hsl(229, 31%, 21%);
+    padding-bottom: 10px;
+    border-bottom: 3px solid hsl(0, 94%, 66%);
+}
+.features__single>button{
+    font-weight: 500;
+    background-color: white;
+    color: hsl(229, 8%, 60%);
+    outline-style: none;
+    border: none;
+    flex: 1 1;
+    font-size: 15px;
+    padding: 0px 24px 12px;
+    border-bottom: 1px solid hsl(229, 8%, 60%);
+}
+
+.singlefeature{
+    display: flex;
+    padding:30px;
+    justify-content: space-evenly;
+    transition: all 5s ease-in-out;
+}
+.singlefeature::before{
+    content: '';
+    z-index: 1;
+    position: absolute;
+    height: 38%;
+    top: 148%;
+    left: 0;
+    width: 500px;
+    border-radius: 0% 0px 30%;
+    background-color: hsl(231, 69%, 60%);
+}
+.singlefeature>img{
+    z-index: 2;
+    flex: 0.3;
+}
+.singlefeature__right{
+    align-self: center;
+    flex: 0.5;
+    max-width: 430px;
+    text-align: start;
+}
+.singlefeature__right>p{
+    color:hsl(229, 8%, 60%);
+}
+.singlefeature__right> button{
+    color: white;
+    background-color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+    padding: 12px 24px;
+    font-size: 14px;
+    transition: all 0.1s ease-in-out;
+    margin-right: 15px;
+    border-radius: 4px;
+    letter-spacing: 0.4px;
+}

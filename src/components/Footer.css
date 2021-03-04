@@ -3,7 +3,7 @@ footer{
     background: hsl(229, 31%, 21%);
     justify-content: space-between;
     align-items: center;
-    padding: 25px 50px;
+    padding: 25px 100px;
 }
 .footer__body{
     display: flex;
