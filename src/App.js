@@ -10,12 +10,12 @@ import Header from './components/Header';
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
-      {/* <BookmarkIntro/> */}
-      {/* <Features/> */}
-      {/* <Download/> */}
-      {/* <Faq/> */}
-      {/* <Contact/> */}
+      <Header/>
+      <BookmarkIntro/> 
+      <Features/> 
+      <Download/> 
+      <Faq/> 
+      <Contact/>
       <Footer/>
     </div>
   );

@@ -91,7 +91,7 @@
     }
     .bookmarkintro::after{
         height: 28%;
-        top: 15%;
+        top: 25%;
         width: 270px;
     }
 }
