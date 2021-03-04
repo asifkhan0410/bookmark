@@ -15,8 +15,8 @@ function App() {
       {/* <Features/> */}
       {/* <Download/> */}
       {/* <Faq/> */}
-      <Contact/>
-      {/* <Footer/> */}
+      {/* <Contact/> */}
+      <Footer/>
     </div>
   );
 }

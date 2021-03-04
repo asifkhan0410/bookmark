@@ -37,3 +37,27 @@ li:hover{
 .footer__social>svg:hover >path{
     fill: hsl(0, 94%, 66%);
 }
+
+@media only screen and (max-width:376px){
+    footer{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .footer__body{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        padding: 10px;
+    }
+    ul> li{
+        padding: 15px 20px 0px;
+    }
+    .footer__social{
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    .footer__social>svg{
+        padding: 0px 10px;
+    }
+}
