@@ -60,3 +60,27 @@
     background-color: white;
     color:hsl(231, 69%, 60%);
 }
+
+@media only screen and (max-width:376px){
+    .download{
+        padding: 20px;
+    }
+    .download>h1{
+        font-size: 1.5rem;
+    }
+    .download>p{
+        font-size: 0.9rem;
+        max-width:100%;
+    }
+    .downloadon{
+        flex-direction: column;
+        padding: 0;
+    }
+    .addto{
+        margin:10px 20px;
+    }
+    .addto>button{
+        margin: 20px 35px;
+        padding: 7px 20px;
+    }
+}

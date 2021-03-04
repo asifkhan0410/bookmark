@@ -60,3 +60,30 @@
     border: 1px solid white;
     transition: all 0.1s ease-in-out;
 }
+
+@media only screen and (max-width:376px){
+    .faq{
+        padding: 20px;
+    }
+    .faq>h1{
+        font-size: 1.5rem;
+    }
+    .faq >p {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+    .singlequestion{
+        width:100%;
+    }
+    .singlequestionbody>h3{
+        font-size: 1rem;
+    }
+    .singlequestion>p{
+        font-size: 14px;
+        padding-right: 15px;
+    }
+    .faq>button{
+        padding: 8px 16px;
+    }
+
+}
