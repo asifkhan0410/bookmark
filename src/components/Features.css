@@ -104,12 +104,13 @@
         padding:25px  10px;
     }
     .singlefeature>img{
-        width:100%;
+        flex:1;
+        height:250px;
         padding-bottom:40px;
     }
     .singlefeature::before{
         height: 25%;
-        top:72%;
+        top:80%;
         width:300px;
     }
 }
