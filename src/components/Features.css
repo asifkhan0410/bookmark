@@ -73,3 +73,43 @@
     border-radius: 4px;
     letter-spacing: 0.4px;
 }
+@media only screen and (max-width:376px){
+    .features{
+        padding: 20px;
+    }
+    .features>p{
+        max-width: 100%;
+    }
+    .features__single{
+        flex-direction: column;
+        width: 100%;
+    }
+    .features__single>button{
+        padding-top: 12px;
+    }
+    .singlefeature__right{
+        text-align: center;
+    }
+    .singlefeature__right>h1{
+        font-size: 1.5rem;
+    }
+    .singlefeature__right>p{
+        font-size: 0.9rem;
+    }
+    .singlefeature__right>button{
+        padding: 7px 27px;
+    }
+    .singlefeature{
+        flex-direction: column;
+        padding:25px  10px;
+    }
+    .singlefeature>img{
+        width:100%;
+        padding-bottom:40px;
+    }
+    .singlefeature::before{
+        height: 25%;
+        top:72%;
+        width:300px;
+    }
+}
